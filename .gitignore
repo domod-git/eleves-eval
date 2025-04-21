@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data (ne pas versionner les fichiers sensibles ou volumineux)
+data/absences.json
+data/remarques.json
+*.xlsx
+*.xls
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PDF ou fichiers générés
+*.pdf
+*.log
